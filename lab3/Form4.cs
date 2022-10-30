@@ -98,42 +98,42 @@ namespace lab3
             }
             //--------------------------------------------------------------
 
-            int[] haystack3 = { 4, 8, 15, 16, 23, 42, 51, 61, 88 };
-            int needle3 = 61;
+            int[] vector4 = { 4, 8, 15, 16, 23, 42, 51, 61, 88 };
+            int valoareCautata4 = 61;
 
-            int left = 0;
-            int right = haystack3.Length - 1;
-            int index3 = -1;
+            int stanga = 0;
+            int dreapta = vector4.Length - 1;
+           
+            int index4 = -1;
 
-            while (left < right)
+            while (stanga < dreapta)
             {
-                int middle = left + (right - left) / 2;
-                //			int middle = (right + left) /2;
+                int mijloc = stanga + (dreapta - stanga) / 2;
+                //			int middle = (dreapta + stanga) /2;
 
-                if (haystack3[middle] == needle3)
+                if (vector4[mijloc] == valoareCautata4)
                 {
-                    index3 = middle;
+                    index4 = mijloc;
+                    break;
                 }
 
-                if (haystack3[middle] < needle3)
+                if (valoareCautata4 > vector4[mijloc])
                 {
-                    left = middle + 1;
+                    stanga = mijloc + 1;
                 }
                 else
                 {
-                    right = middle - 1;
+                    dreapta = mijloc - 1;
                 }
             }
 
-            if (index3 == -1)
+            if (index4 == -1)
             {
                 Console.WriteLine("Element not found");
             } else
             {
-                Console.WriteLine("Element found at index " + index3);
+                Console.WriteLine("Element found at index " + index4);
             }
-
-
         }
     }
 }
