@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualBasic;
+﻿
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,6 +26,7 @@ namespace lab4
             n = int.Parse(
                 Interaction.InputBox("Type in the number of values")
             );
+
 
             int[] values = new int[n];
 

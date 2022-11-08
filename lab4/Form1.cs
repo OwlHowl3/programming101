@@ -35,6 +35,7 @@ namespace lab4
 
             matrixMin = matrix[0, 0];
             matrixMax = matrix[0, 0];
+
             for (int row = 0; row < matrix.GetLength(0); row++)
             {
                 for (int column = 0; column < matrix.GetLength(1); column++)
@@ -48,6 +49,7 @@ namespace lab4
                     {
                         matrixMax = matrix[row, column];
                     }
+
                     matrixTotal += matrix[row, column];
                 }
             }
@@ -87,7 +89,6 @@ namespace lab4
                 Console.WriteLine("Row " + row + " max = " + rowMax);
                 Console.WriteLine("Row " + row + " total = " + rowTotal);
                 Console.WriteLine("Row " + row + " mean = " + rowMean);
-
             }
 
             // -------------------------------------------------------
