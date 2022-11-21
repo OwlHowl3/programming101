@@ -53,13 +53,15 @@ namespace lab5
             }
 
             MessageBox.Show(
-                "Total values less than " + a.ToString() + ": " + valuesLessThanA.Count.ToString()
+                "Total values less than " + a.ToString() + ": " + 
+                valuesLessThanA.Count.ToString()
             );
 
             string itemsString = "";
-            for (var i = 0; i < valuesLessThanA.Count; i++)
+            for (int i = 0; i < valuesLessThanA.Count; i++)
             {
                 itemsString += valuesLessThanA[i].ToString();
+                
                 if (i != valuesLessThanA.Count - 1)
                 {
                     itemsString += ",";
