@@ -12,6 +12,10 @@ namespace lab3
 {
     public partial class Form3 : Form
     {
+        // Defineste un vector de salarii
+
+        // Calculeaza minimul, maximul, totalul si media din acel vector
+
         public Form3()
         {
             InitializeComponent();

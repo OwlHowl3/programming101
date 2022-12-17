@@ -14,6 +14,10 @@ namespace lab7
 {
     public partial class Form4 : Form
     {
+        // se preia un numar de la utilizator
+
+        // se verifica daca numarul este un palindrom
+
         public Form4()
         {
             InitializeComponent();

@@ -13,6 +13,22 @@ namespace lab8
 {
     public partial class Form1 : Form
     {
+        // defineste o valoarea string campus la nivelul formularului
+
+        // la incarcarea formularului debifeaza chechboxul "Needs accomodation"
+        // si ascunde grupul de campsuri
+
+        // la bifarea "Needs Accomodation" arata grupul de campusuri,
+        // selecteaza prima varianta si seteaza valoarea pentru 'campus'
+
+        // la debifarea acestuia se ascunde grupul de campusuri 
+        // si se reseteaza 'campus'
+        
+        // la selectarea oricarui radio button se seteaza 'campus'
+
+        // la click pe buton se preiau valorile din inputuri
+        // se calculeaza bursa si se afiseaza totul in label
+
         string campus;
 
         public Form1()

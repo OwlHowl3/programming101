@@ -14,6 +14,14 @@ namespace lab4
 {
     public partial class Form2 : Form
     {
+        // Preluaţi de la utilizator un număr n.
+        
+        // Preluaţi apoi n valori numerice într-un vector.
+
+        // Preluaţi de la utilizator 2 valori: a şi b.
+
+        // Calculaţi media valorilor din vector cuprinse între valorile a şi b
+        
         public Form2()
         {
             InitializeComponent();

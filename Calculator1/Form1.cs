@@ -12,6 +12,13 @@ namespace Calculator1
 {
     public partial class Form1 : Form
     {
+        // Calculator simplu
+
+        // preia doua numere in doua inputuri
+
+        // la actionarea butoanelor indeplineste actiunea corespunzatoare
+        // si afiseaza rezultatul
+
         public Form1()
         {
             InitializeComponent();

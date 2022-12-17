@@ -12,6 +12,11 @@ namespace lab3
 {
     public partial class Form1 : Form
     {
+        // Preia din inputuri doua valori numerice pentru coeficientii 
+        // ecuatiei de gradul I
+
+        // Rezolva ecutia la actionarea butonului
+
         public Form1()
         {
             InitializeComponent();
@@ -55,6 +60,11 @@ namespace lab3
                 solution = -b / a;
                 MessageBox.Show(solution.ToString());
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

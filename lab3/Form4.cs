@@ -13,6 +13,15 @@ namespace lab3
 {
     public partial class Form4 : Form
     {
+        // 1. Algoritm de cautare index pentru valoare in vector
+
+        // 2. Algoritm de cautare pentru toti
+        //    indecsii la care apare valoarea in vector
+
+        // 3. Algoritm de cautare in multimi ordonate (iterativ)
+
+        // 4. Algoritm de cautare in multimi ordinate (divide-et-impera)
+
         public Form4()
         {
             InitializeComponent();
@@ -20,6 +29,7 @@ namespace lab3
 
         private void Form4_Load(object sender, EventArgs e)
         {
+            // 1. Start--------------------------------------------------------------
             int[] haystack = new int[] { 42, 8, 4, 16, 23, 15, 16 };
             int needle = 16;
 
@@ -40,7 +50,9 @@ namespace lab3
             {
                 Console.WriteLine("Element found at index " + index);
             }
-            //--------------------------------------------------------------
+            // 1. End --------------------------------------------------------------
+
+            // 2. Start --------------------------------------------------------------
             ArrayList indexes = new ArrayList();
             for (int i = 0; i < haystack.Length; i++)
             {
@@ -70,8 +82,9 @@ namespace lab3
             {
                 Console.WriteLine("Element found at indexes " + indexesString);
             }
-
-            //--------------------------------------------------------------
+            // 2. End --------------------------------------------------------------
+            
+            // 3. Start --------------------------------------------------------------
             int[] haystack2 = { 4, 8, 15, 16, 23, 42 };
             int needle2 = 13;
 
@@ -96,8 +109,9 @@ namespace lab3
             {
                 Console.WriteLine("Element found at index: " + index2);
             }
-            //--------------------------------------------------------------
+            // 3. End --------------------------------------------------------------
 
+            // 4. Start --------------------------------------------------------------
             int[] vector4 = { 4, 8, 15, 16, 23, 42, 51, 61, 88 };
             int valoareCautata4 = 61;
 
@@ -134,6 +148,7 @@ namespace lab3
             {
                 Console.WriteLine("Element found at index " + index4);
             }
+            // 4. End --------------------------------------------------------------
         }
     }
 }

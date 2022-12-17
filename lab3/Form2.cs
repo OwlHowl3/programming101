@@ -12,6 +12,11 @@ namespace lab3
 {
     public partial class Form2 : Form
     {
+        // Preia din inputuri trei valori numerice pentru coeficientii 
+        // ecuatiei de gradul II
+
+        // Rezolva ecutia la actionarea butonului
+
         public Form2()
         {
             InitializeComponent();
@@ -67,6 +72,11 @@ namespace lab3
             {
                 MessageBox.Show("There are no real solutions");
             }
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

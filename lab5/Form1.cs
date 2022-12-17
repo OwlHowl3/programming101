@@ -14,6 +14,14 @@ namespace lab5
 {
     public partial class Form1 : Form
     {
+        //Preluaţi de la utilizator un număr n.
+
+        //Preluaţi apoi n valori numerice într-un vector.
+
+        //Preluaţi de la utilizator valoarea a.
+
+        //Afişaţi numărul de valori din vector mai mici decât a şi apoi afişaţi respectivele valori.
+        
         public Form1()
         {
             InitializeComponent();

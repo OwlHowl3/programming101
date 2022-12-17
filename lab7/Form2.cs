@@ -5,6 +5,14 @@ namespace lab7
 {
     public partial class Form2 : Form
     {
+        // se defineste o lista cu lungimi de apeluri
+        
+        // pentru fiecare apel se calculeaza costul aplicand taxarea progresiva
+        
+        // se calculeaza costul tuturor apelurilor
+
+        // se afiseaza valoarea totala 
+
         public Form2()
         {
             InitializeComponent();

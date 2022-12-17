@@ -12,6 +12,21 @@ namespace lab6
 {
     public partial class Form1 : Form
     {
+        // 1. Creare metoda pentru calcul arie dreptunghi
+
+        // 2. Creare metoda pentru extragerea valorii maxime dintr-un vector
+
+        // 3. Creare metoda pentru calcul distanta dintre doua puncte
+        //    intr-un plan 2d
+
+        // 4. Creare metoda pentru impartirea unei sume de bani in 
+        //    cat mai putine bancnote
+
+        // 5. Creare metoda pentru convertire secunde in formatul
+        //    ore:minute:secunde
+
+        // 6. Create metoda pentru afisarea unui brad in consola
+
         public Form1()
         {
             InitializeComponent();
@@ -19,16 +34,16 @@ namespace lab6
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Console.WriteLine(this.RectangleArea(2, 6));
+            Console.WriteLine(this.RectangleArea(2, 6));
 
-            //double maxValue = MaxValue(new double[] { 0.5, 6.1, 7.9, 7.5 });
-            //Console.WriteLine(maxValue);
+            double maxValue = MaxValue(new double[] { 0.5, 6.1, 7.9, 7.5 });
+            Console.WriteLine(maxValue);
 
-            //Console.WriteLine(DistanceBetweenPoints(25, 35, 15, 10));
+            Console.WriteLine(DistanceBetweenPoints(25, 35, 15, 10));
 
-            //BreakIntoBanknotes(375);
+            BreakIntoBanknotes(375);
 
-            //ConvertSeconds(25300);
+            ConvertSeconds(25300);
 
             DrawChristmasTree(3);
             DrawChristmasTree(4);

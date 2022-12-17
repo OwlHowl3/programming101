@@ -9,11 +9,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace lab5
 {
     public partial class Form2 : Form
     {
+        // Preluaţi de la utilizator un număr n.
+
+        // Preluaţi apoi n valori numerice într-un vector.
+
+        // Preluaţi de la utilizator 2 valori: a şi b.
+
+        // Generaţi un alt vector care să conţină valorile care
+        // nu sunt între a şi b.Afişaţi apoi numărul acestor valori.
+
         public Form2()
         {
             InitializeComponent();

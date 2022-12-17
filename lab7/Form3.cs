@@ -13,6 +13,8 @@ namespace lab7
 {
     public partial class Form3 : Form
     {
+        // se afiseaza tabla inmultirii la consola
+
         public Form3()
         {
             InitializeComponent();

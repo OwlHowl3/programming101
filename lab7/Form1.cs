@@ -14,6 +14,12 @@ namespace lab7
 {
     public partial class Form1 : Form
     {
+        // se preia de la utilizator o valoare
+        // si se calculeaza taxa cu aplicarea regulii de taxare progresiva
+
+        // se afiseaza valoarea taxei 
+
+
         public Form1()
         {
             InitializeComponent();

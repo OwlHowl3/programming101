@@ -13,6 +13,10 @@ namespace lab4
 {
     public partial class Form1 : Form
     {
+        // Creeaza o matrice cu valori arbitrare
+
+        // Calculeaza minimul, maximul, totalul si media pentru 
+        // toata matricea, fiecare rand si fiecare coloana
         public Form1()
         {
             InitializeComponent();
